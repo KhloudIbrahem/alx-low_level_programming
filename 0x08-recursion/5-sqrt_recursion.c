@@ -3,7 +3,7 @@
 int sqart(int n, int i);
 
 /**
- * _sqrt_recursion -  returns the natural square root of a number.
+ * _sqrt_recursion - returns the natural square root of a number.
  * @n: the number.
  * Return: the square root of the number.
  */
