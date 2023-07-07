@@ -7,11 +7,8 @@
  */
 int main(int argc, char *argv[])
 {
-	int a, b, res;
+	int a = 0, b = 0;
 
-	a = 0;
-	b = 0;
-	res = 0;
 	if (argc < 2)
 	{
 		printf("Error\n");
@@ -19,7 +16,6 @@ int main(int argc, char *argv[])
 	}
 	a = atoi(argv[1]);
 	b = atoi(argv[2]);
-	res = a * b;
-	printf("%d\n", res);
+	printf("%d\n", a * b);
 	return (0);
 }
