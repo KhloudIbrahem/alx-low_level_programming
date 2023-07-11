@@ -6,7 +6,7 @@
  * a parameter.
  * @str: the string to be copied.
  * Return: a pointer to a newly allocated space in memory
- * contained 
+ * contained
  * copy of the string.
  */
 char *_strdup(char *str)
