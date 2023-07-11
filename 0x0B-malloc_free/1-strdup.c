@@ -1,9 +1,12 @@
 #include "main.h"
 /**
- * _strdup - returns a pointer to a newly allocated space in memory
- * which contains a copy of the string given as a parameter.
+ * _strdup - returns a pointer to a newly allocated space
+ * in memory
+ * which contains a copy of the string given as
+ * a parameter.
  * @str: the string to be copied.
- * Return: a pointer to a newly allocated space in memory contained 
+ * Return: a pointer to a newly allocated space in memory
+ * contained 
  * copy of the string.
  */
 char *_strdup(char *str)
