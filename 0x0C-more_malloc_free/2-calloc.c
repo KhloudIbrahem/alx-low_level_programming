@@ -14,6 +14,7 @@ char *_memset(char *s, char l, unsigned int n)
 		 s[i] = l;
 	return (s);
 }
+
 /**
  * _calloc - allocates memory for an array
  * using malloc.
@@ -27,7 +28,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	arr = malloc(nmemb * size);
+	arr = malloc(size * nmemb);
 	if (arr == NULL)
 		return (NULL);
 	_memset(arr, 0, nmemb * size);
