@@ -10,9 +10,9 @@ char *_memset(char *s, char l, unsigned int n)
 {
 	 unsigned int i;
 
-	 for (i = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 		 s[i] = l;
-	 return (s);
+	return (s);
 }
 /**
  * _calloc - allocates memory for an array
