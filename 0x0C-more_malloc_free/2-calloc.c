@@ -23,7 +23,7 @@ char *_memset(char *s, char l, unsigned int n)
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *arr;
+	char *arr;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
