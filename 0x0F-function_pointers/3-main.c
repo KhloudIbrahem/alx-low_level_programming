@@ -1,8 +1,9 @@
 #include "3-calc.h"
 /**
- * main - This function we have a two number and an operator
- * @ac: Is the length of Number of arguments
- * @av: These are the arguments
+ * main - This function we have
+ * a two number and an operator
+ * @argc: Is the length of Number of arguments
+ * @argv: These are the arguments
  * Return: Return to 0
  */
 int main(int argc, char *argv[])
